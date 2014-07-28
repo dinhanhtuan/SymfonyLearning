@@ -4,6 +4,7 @@ namespace Yoda\EventBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 
 use Yoda\EventBundle\Entity\Event;
 use Yoda\EventBundle\Form\EventType;
